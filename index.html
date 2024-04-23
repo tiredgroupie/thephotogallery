@@ -17,15 +17,20 @@
         </nav>
     top
     </header>
-    <section id=""about>
+    <section id="about">
 <h2>About</h2>
 <p>Hello! I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p> 
 </section>
-<h2>Gallery</h2>
-Here are some highlights of my work. The locations and year are in the caption. 
 
-Chile.png
-Chile, 2001
+<section id="gallery">
+<h2>Gallery</h2>
+<figure>
+<p>Here are some highlights of my work. The locations and year are in the caption.</p>
+
+<img src="Chile.png" alt="Photograph of Chile">
+<figcaption>Chile, 2001</figcaption>
+</figure>
+</section>
 
 Guatemala.png
 Guatemala, 1997
@@ -60,15 +65,20 @@ USA, 2021
 Wyoming.png
 Wyoming, 2021
 
-Contact
-Please fill out this form and I'll connect with you soon.
-
-Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
-
+<section id="contact">
+    <h2>Contact</h2>
+    <form action="#" method="post">
+        <p>Please fill out this form and I'll connect with you soon.</p>
+            <h3>Your contact information</h3>
+                <label for="name">Name (Your full name)</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email (Enter your email address)</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message (What can I help you with?)</label><br>
+                <textarea id="message" namw="message" required></textarea><br>
+                <input type="submit" value="Submit">
+    </form>
+</section>
     <footer>
         <p>Copyright 2021 TK Photography</p>
     </footer>

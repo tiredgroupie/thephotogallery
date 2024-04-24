@@ -9,6 +9,7 @@ body {
     max-width: 485px;
     margin: 0 auto;
     line-height: 1.5;
+    padding: 0 10px;
 }
 
 header {

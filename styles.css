@@ -47,6 +47,7 @@ nav ul li a:hover {
 section {
     padding: 20px;
     margin-top: 20px;
+    display: inline;
 }
 
 section h2 {

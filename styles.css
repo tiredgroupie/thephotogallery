@@ -19,6 +19,7 @@ header {
 header h1 {
     margin:0;
     font-size: 3em;
+    text-align: center;
 }
 
 nav ul {
@@ -50,14 +51,15 @@ section {
 
 section h2 {
     color: #000;
-    border-bottom: 1px solid #000;
     padding-bottom: 10px;
     font-size: 2em;
+    text-align: center;
 }
 
 section p {
     line-height: 1.5;
     font-size: 1.25em;
+    text-align: center;
 }
 
 figure {
